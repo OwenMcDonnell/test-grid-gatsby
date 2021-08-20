@@ -8,7 +8,7 @@ const Layout = ({ children }) => (
 
     
       <div className={container}>
-        <Header siteTitle="grid malfunction repro"/>
+        <Header siteTitle="Grid Malfunction Repro"/>
     
         <main >
           <div className={pageBody}>

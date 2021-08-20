@@ -1,22 +1,24 @@
 
 import React from 'react'
 
-import { logo, header} from './header.module.css'
+import { logo, header, navList} from './header.module.css'
 
-const Header = ({ siteTitle }) => (
+const Header = (props) => (
 
   <div className={header}>
     <nav>
       <div className={logo}> 
-          <p>&#10044;{siteTitle}&#10044;</p>
+          &#10044;{props.siteTitle}&#10044;
 
         
       </div>
-      <ul>
-        <li>Products</li>
-        <li>More Products</li>
-        <li>Blog</li>
-      </ul>
+      <div className={navList}>
+        <ul>
+          <li>Products</li>
+          <li>More Products</li>
+          <li>Blog</li>
+        </ul>
+      </div>
 
     </nav>
   </div>
