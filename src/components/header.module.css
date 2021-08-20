@@ -15,6 +15,7 @@
   }
 
   .logo {
+    white-space: nowrap;
     display: inline-block;
   }
 
