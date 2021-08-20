@@ -1,0 +1,38 @@
+.header {
+    background-color: rgb(129, 142, 197);
+    background-size: 'cover'; 
+    display: block;
+    font-size: 24px;
+    padding: 20px 3% 0;
+    place-items: center;
+  }
+
+  nav {
+    /* width: 100%; */
+    display: inline-block;
+    place-content: center;
+    place-items: center;
+    color: white;
+  }
+
+  .logo {
+    width: 25%;
+    display: inline-block;
+  }
+
+  
+
+  nav ul {
+    place-items: center;
+    place-content: center;
+    /* padding-left: 150px; */
+    display: inline-block;
+    list-style-type: none;
+    /* margin-right: 10rem; */
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 5rem; 
+  }
+

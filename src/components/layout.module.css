@@ -1,0 +1,18 @@
+.container {
+    padding: 0;
+    min-height: 100%;
+    grid-template-rows: auto 1fr auto;
+    display: grid;
+    /* flex-direction: column; */
+}
+
+body {
+    margin: 0;
+}
+
+.pageBody {
+    font-family: baskerville;
+    /* flex: 1; */
+    padding: 50px;
+    background-color: rgb(102, 102, 102);
+}
